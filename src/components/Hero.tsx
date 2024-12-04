@@ -16,7 +16,7 @@ export function Hero() {
         backgroundImage: "url('https://metrobi.com/wp-content/uploads/2024/05/Craft-an-inviting-flower-shop-layout.webp')"
       }}
     >
-      <section className="pt-[250px] pb-40 bg-gradient-to-b from-rose-50/80 to-white">
+      <section className="pt-[250px] pb-[150px] bg-gradient-to-b from-rose-50/80 to-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
