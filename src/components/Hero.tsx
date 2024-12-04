@@ -16,7 +16,7 @@ export function Hero() {
         backgroundImage: "url('https://metrobi.com/wp-content/uploads/2024/05/Craft-an-inviting-flower-shop-layout.webp')"
       }}
     >
-      <section className="pt-[250px] pb-[150px] bg-gradient-to-b from-rose-50/80 to-white">
+      <section className="flex flex-col justify-center items-center h-full bg-gradient-to-b from-rose-50/80 to-white/80">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
@@ -27,7 +27,7 @@ export function Hero() {
               Сделайте чей-то день ярче вместе.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              <button className="bg-rose-500 text-white px-8 py-3 rounded-full text-lg hover:bg-rose-600 transition-colors" onClick={handleSubscribe}>
+              <button onClick={handleSubscribe} className="bg-rose-500 text-white px-8 py-3 rounded-full text-lg hover:bg-rose-600 transition-colors">
                 Оформить подписку
               </button>
               <button className="border-2 border-rose-500 text-rose-500 px-8 py-3 rounded-full text-lg hover:bg-rose-50 transition-colors">
